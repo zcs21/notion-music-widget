@@ -37,15 +37,16 @@ $(function () {
       "Proxy (Original Mix)"
     ],
     trackNames = [
-      "Skylike - Dawn",
-      "Alex Skrindo - Me & You",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
-      "Martin Garrix - Proxy"
+      "Doja Cat - Boss B_tch",
+      "aliyahsinterlude - IT GIRL",
+      "Yung Baby Tate - I Am Ft. Flo Milli",
+      "VEDO - You Got it",
+      "tnbee - Secret Inside the Hat"
+      "ZUTOMAYO - STUDY ME"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
-      "https://github.com/zcs21/notion-music-widget/blob/main/Doja%20Cat%20-%20Boss%20B_tch.mp3",
+      "https://github.com/zcs21/notion-music-widget/blob/main/Doja-Cat-Boss-B-tch.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/IT%20GIRL.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/Yung%20Baby%20Tate%20-%20I%20Am%20ft.%20Flo%20Milli.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/VEDO%20-%20You%20Got%20It.mp3",
