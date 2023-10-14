@@ -389,11 +389,12 @@ body
             </div>
             <div id="player-content">
                 <div id="album-art">
-                    <img src="https://i.pinimg.com/736x/94/dd/e1/94dde1ac061851a9bd525755457f26f0.jpg" class="active" id="_1">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/black%20queen.jpg" class="active" id="_1">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/it%20girl.jpg" id="_2">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/i%20am.jpg" id="_3">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/get%20your%20edumacation.jpg" id="_4">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/lyney.jpg" id="_5">
+                    <img src="https://github.com/zcs21/notion-music-widget/blob/main/study%20with%20me!.jpg" id="_6">
                     <div id="buffer-box">Buffering ...</div>
                 </div>
                 <div id="player-controls">
@@ -424,7 +425,7 @@ body
   <script type="text/javascript">
     $(function()
 {
-    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['my magic shop','Me & You','Electro Boy','Home','Proxy (Original Mix)'], trackNames = ['you gave me the best of me','Alex Skrindo - Me & You','Kaaze - Electro Boy','Jordan Schor - Home','Martin Garrix - Proxy'], albumArtworks = ['_1','_2','_3','_4','_5'], trackUrl = ['https://raw.githubusercontent.com/saeju29/musicplayer/main/magicshop.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
+    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['my magic shop','Me & You','Electro Boy','Home','Proxy (Original Mix)'], trackNames = ['Doja Cat - Boss B_tch','aliyahsinterlude - IT GIRL','Yung Baby Tate - I Am Ft. Flo Milli','VEDO - You Got it','tnbee - Secret Inside the Hat','ZUTOMAYO - STUDY ME'], albumArtworks = ['_1','_2','_3','_4','_5','_6'], trackUrl = ['https://github.com/zcs21/notion-music-widget/blob/main/Doja%20Cat%20-%20Boss%20B_tch.mp3','https://github.com/zcs21/notion-music-widget/blob/main/IT%20GIRL.mp3','https://github.com/zcs21/notion-music-widget/blob/main/Yung%20Baby%20Tate%20-%20I%20Am%20ft.%20Flo%20Milli.mp3','https://github.com/zcs21/notion-music-widget/blob/main/VEDO%20-%20You%20Got%20It.mp3','https://github.com/zcs21/notion-music-widget/blob/main/Lyney%20Theme%20Music%20-%20Secret%20Inside%20the%20Hat%20(tnbee%20mix).mp3','https://github.com/zcs21/notion-music-widget/blob/main/ZUTOMAYO%20-%20STUDY%20ME.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 
     function playPause()
     {
