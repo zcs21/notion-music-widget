@@ -46,7 +46,7 @@ $(function () {
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
-      "Doja-Cat-Boss-B-tch.mp3",
+      "https://github.com/zcs21/notion-music-widget/raw/main/Doja-Cat-Boss-B-tch.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/IT%20GIRL.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/Yung%20Baby%20Tate%20-%20I%20Am%20ft.%20Flo%20Milli.mp3",
       "https://github.com/zcs21/notion-music-widget/blob/main/VEDO%20-%20You%20Got%20It.mp3",
