@@ -43,13 +43,14 @@ $(function () {
       "Jordan Schor - Home",
       "Martin Garrix - Proxy"
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+      "https://github.com/zcs21/notion-music-widget/blob/main/Doja%20Cat%20-%20Boss%20B_tch.mp3",
+      "https://github.com/zcs21/notion-music-widget/blob/main/IT%20GIRL.mp3",
+      "https://github.com/zcs21/notion-music-widget/blob/main/Yung%20Baby%20Tate%20-%20I%20Am%20ft.%20Flo%20Milli.mp3",
+      "https://github.com/zcs21/notion-music-widget/blob/main/VEDO%20-%20You%20Got%20It.mp3",
+      "https://github.com/zcs21/notion-music-widget/blob/main/Lyney%20Theme%20Music%20-%20Secret%20Inside%20the%20Hat%20(tnbee%20mix).mp3"
+      "https://github.com/zcs21/notion-music-widget/blob/main/ZUTOMAYO%20-%20STUDY%20ME.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
